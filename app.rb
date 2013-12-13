@@ -1,6 +1,6 @@
 # encoding: utf-8
 require 'sinatra'
-require 'sinatra_boilerplate'
+require_relative 'lib/sinatra_boilerplate'
 
 set :js_assets, %w[zepto.js underscore.js app.coffee]
 
